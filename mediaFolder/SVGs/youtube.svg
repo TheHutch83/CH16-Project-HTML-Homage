@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.2681944,4.13524414 C15.0937222,3.44237305 14.5796667,2.89668945 13.9269722,2.71150391 C12.7439167,2.375 8,2.375 8,2.375 C8,2.375 3.25611111,2.375 2.07302778,2.71150391 C1.42033333,2.89671875 0.906277778,3.44237305 0.731805556,4.13524414 C0.414805556,5.39111328 0.414805556,8.01136719 0.414805556,8.01136719 C0.414805556,8.01136719 0.414805556,10.6316211 0.731805556,11.8874902 C0.906277778,12.5803613 1.42033333,13.1033105 2.07302778,13.2884961 C3.25611111,13.625 8,13.625 8,13.625 C8,13.625 12.7438889,13.625 13.9269722,13.2884961 C14.5796667,13.1033105 15.0937222,12.5803613 15.2681944,11.8874902 C15.5851944,10.6316211 15.5851944,8.01136719 15.5851944,8.01136719 C15.5851944,8.01136719 15.5851944,5.39111328 15.2681944,4.13524414 Z M6.44847222,10.3903613 L6.44847222,5.63237305 L10.4134444,8.01142578 L6.44847222,10.3903613 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="base/footer/en" transform="translate(-1460.000000, -374.000000)">
+            <g id="about" transform="translate(360.000000, 368.000000)">
+                <g id="footer-social" transform="translate(878.000000, 0.000000)">
+                    <g id="base/footer/icon" transform="translate(218.000000, 0.000000)">
+                        <g id="youtube" transform="translate(4.000000, 4.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g fill-rule="nonzero"></g>
+                            <g id="grey/7(dark-grey-&amp;-text-secondary)" mask="url(#mask-2)" fill="#6C7073" fill-rule="evenodd">
+                                <rect id="base" x="0" y="0" width="16" height="16"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

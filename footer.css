@@ -1,0 +1,11 @@
+footer {
+  width: 400px;
+  height: auto;
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}

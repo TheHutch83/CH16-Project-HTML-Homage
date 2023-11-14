@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.4599109,4.8 C15.3930958,6.1625 14.3775056,8.028125 12.4064588,10.396875 C10.3719376,12.871875 8.65144766,14.109375 7.24164811,14.109375 C6.36971047,14.109375 5.63140312,13.35625 5.02672606,11.85 C3.85077951,7.8125 3.34966592,5.446875 2.37750557,5.446875 C2.26391982,5.446875 1.87305122,5.66875 1.20155902,6.10625 L0.5,5.25625 C2.22383073,3.840625 3.87082405,2.265625 4.90311804,2.178125 C6.06904232,2.071875 6.78396437,2.81875 7.0545657,4.4125 C8.01336303,10.084375 8.4376392,10.940625 10.1815145,8.371875 C10.8062361,7.446875 11.1436526,6.74375 11.1904232,6.259375 C11.3507795,4.825 9.99443207,4.921875 9.07572383,5.290625 C9.81069042,3.0375 11.2171492,1.94375 13.2917595,2.00625 C14.8218263,2.04375 15.5467706,2.978125 15.4599109,4.8 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="base/footer/en" transform="translate(-1500.000000, -374.000000)">
+            <g id="about" transform="translate(360.000000, 368.000000)">
+                <g id="footer-social" transform="translate(878.000000, 0.000000)">
+                    <g id="base/footer/icon" transform="translate(258.000000, 0.000000)">
+                        <g id="vimeo-v" transform="translate(4.000000, 4.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g fill-rule="nonzero"></g>
+                            <g id="grey/7(dark-grey-&amp;-text-secondary)" mask="url(#mask-2)" fill="#6C7073" fill-rule="evenodd">
+                                <rect id="base" x="0" y="0" width="16" height="16"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

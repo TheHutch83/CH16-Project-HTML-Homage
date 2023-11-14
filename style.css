@@ -1,0 +1,231 @@
+:root {
+  background-color: burlywood;
+}
+
+/* hide the following images - there must be a better way. srcset did not work
+ */
+
+/* .Image-Carousel div div div {
+  display: none;
+} */
+
+.Image-Carousel {
+  width: 400px;
+  height: 650px;
+}
+
+.Image-Carousel img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.slideOne {
+  background-image: url(./mediaFolder/stillImages/djiOsmoPocket3.jpg);
+}
+.slideTwo {
+  background-image: url(./mediaFolder/stillImages/DJIMavic3Pro.jpeg);
+}
+.slideThree {
+  background-image: url(./mediaFolder/stillImages/DJIIInspire3.jpeg);
+}
+.slideFour {
+  background-image: url(./mediaFolder/stillImages/DJIMavic3EnterpriseSeries.jpeg);
+}
+.slideFive {
+  background-image: url(./mediaFolder/stillImages/DJIMavic3M.jpeg);
+}
+.slideSix {
+  background-image: url(./mediaFolder/stillImages/DJIAgrasT40.jpeg);
+}
+
+.Image-Carousel div a {
+  text-decoration: none;
+  color: white;
+}
+
+.Image-Carousel .carousel-text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin: 0;
+  padding: 0px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* font-size: 1em; */
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Image-Carousel div div {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  color: white;
+  background-color: red;
+}
+
+.Image-Carousel div:target {
+  z-index: 1;
+}
+
+.Special {
+  font: italic;
+}
+
+.Further-Information {
+  width: 400px;
+  height: auto;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+.Further-Information img {
+  width: 400px;
+  height: auto;
+}
+
+.Further-Information div div {
+  position: absolute;
+}
+/* no effect on positioning, changing from abs to rel, there is still an iamge missing */
+
+.Further-Information .further-text-overlay {
+  position: relative;
+  top: 20%;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 10px;
+}
+
+.DJI-mini {
+  background-image: url(./mediaFolder/stillImages/DJIMini4Pro.jpeg);
+}
+
+.DJI-Action {
+  background-image: url(./mediaFolder/stillImages/DJIOsmoAction4.jpeg);
+}
+
+.DJI-Mobile {
+  background-image: url(./mediaFolder/stillImages/DJIOsmoMobile6.jpeg);
+}
+
+.Compare {
+  background-image: url(./mediaFolder/stillImages/DJICompareCameraDrones.jpeg);
+}
+
+.Video-Carousel {
+  display: none;
+}
+
+.Second-image-carousel img {
+  width: 400px;
+  height: 500px;
+}
+
+.Second-Slide-One {
+  background-image: url(./mediaFolder/stillImages/shotOnDJIOsmoPocket3.png);
+}
+
+.Second-Slide-Two {
+  background-image: url(./mediaFolder/stillImages/shotOnDJIMini4Pro.png);
+}
+
+.Second-Slide-Three {
+  background-image: url(./mediaFolder/stillImages/shotOnDJIMavic3Pro.png);
+}
+
+.Second-Slide-Four {
+  background-image: url(./mediaFolder/stillImages/shotOnDJIAir3.png);
+}
+
+.Second-Slide-Five {
+  background-image: url(./mediaFolder/stillImages/shotOnDJIOsmoAction4.png);
+}
+
+.Second-Slide-Six {
+  background-image: url(./mediaFolder/stillImages/shotOnDJIInspire3.png);
+}
+
+.Second-Slide-Seven {
+  background-image: url(./mediaFolder/stillImages/shotOnDJIAvata.png);
+}
+
+.Second-Slide-Eight {
+  background-image: url(./mediaFolder/stillImages/shotOnDJIRonin4DFlex.png);
+}
+
+.Second-image-carousel div a {
+  text-decoration: none;
+  color: white;
+}
+.Second-image-carousel .second-carousel-overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin: 0;
+  padding: 0px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* font-size: 1em; */
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Second-image-carousel div div {
+  position: absolute;
+  width: 400px;
+  min-height: 500px;
+  color: white;
+  background-color: purple;
+}
+/* making the carousel abs makes it work, the text goes rogue
+ */
+.Second-image-carousel div:target {
+  z-index: 1;
+}
+
+.Explore-More img {
+  width: 400px;
+  height: auto;
+}
+
+.Explore-More {
+  width: 400px;
+  height: auto;
+  background-color: yellow;
+}
+
+.Explore-More div div {
+  position: absolute;
+}
+
+.Video-Carousel {
+  width: 400px;
+  height: auto;
+  background-color: peachpuff;
+}
+
+.Video-Carousel .video {
+  width: 400px;
+  height: auto;
+}
+
+.Video-Carousel div div {
+  position: absolute;
+}
+
+.Video-Carousel div:target {
+  z-index: 1;
+}
+
+@media screen and (min-width: 600px) {
+  .Image-Carousel img {
+    width: 600px;
+    object-fit: cover;
+  }
+}

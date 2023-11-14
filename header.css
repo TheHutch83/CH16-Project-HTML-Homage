@@ -1,0 +1,39 @@
+header {
+  position: relative;
+  display: grid;
+  grid-template-columns: 100px 200px 100px;
+  grid-template-rows: 30px;
+  grid-template-areas: "left middle right";
+  /* padding: 10px; */
+  /* background-color: black; */
+}
+
+.DJI {
+  grid-area: middle;
+  align-items: center;
+}
+
+.Nav-bar-container {
+  grid-area: left;
+  align-items: center;
+}
+
+.Nav-bar-container a {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+}
+
+.nav-Menu {
+  display: none;
+}
+
+.X-Menu {
+  display: none;
+}
+/* no be used in place of burger when sidebar */
+
+/* .burger-menu:checked {
+} */
